@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+.header {
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 10fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid red;
+  background-color: antiquewhite;
+}
+.header div {
+  text-align: justify;
+}
+.boxProp {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  margin-left: 10px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid green;
+}
+.properties {
+  position: relative;
+  font-size: medium;
+  color: #415639;
+}
+.home {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0 0 250px;
+}
+.home_item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 20px;
+  align-items: center;
+  border-bottom: 2px solid green;
+}
+img {
+  width: 70px;
+  padding: 10px;
+  border-radius: 50%;
+}
+.side_menu {
+  position: fixed;
+  top: 64px;
+  height: 100vh;
+  border-right: 1px solid blue;
+}
+.side_item {
+  padding: 10px;
+}
+button {
+  width: 220px;
+  height: 80px;
+  background-color: #7cb765;
+}
+
+.user-table {
+  position: relative;
+  top: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+  padding: 30px;
+}
